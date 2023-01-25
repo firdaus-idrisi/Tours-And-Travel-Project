@@ -1,0 +1,58 @@
+{% block content %}
+{% load crispy_forms_tags %}
+<head>
+	<title>
+		Flight Details
+	</title>
+	<link rel="stylesheet" href="../Static/css/bootstrap.css">
+    <link rel="stylesheet" href="../Static/css/book.css">
+	{% comment %} <link rel="stylesheet" href="../Static/css/register.css"> {% endcomment %}
+</head>
+
+<body>
+    <h1 class="heading">Flight Details</h1>
+<div class="container py-5 ">
+    <div class="row">
+        
+		
+    
+    <form action="booking" method="post" novalidate>
+        {% csrf_token %}
+
+
+
+        {% for hd in fight_table.itineraries.results %}
+        <div class="col-xs-3 booking">
+        <div>
+                   
+            <b>Source :- </b> {{hd.legs.0.origin.name}}</div>
+        <div> 
+            <b>Destination :-</b>  {{hd.legs.0.destination.name}} </div>
+        <div>
+            <b>Duration :-  </b>{{hd.legs.0.durationInMinutes}} Minutes </div>
+        <div>
+            <b>Arrival Date/Time :-  </b>{{hd.legs.0.arrival}} </div>
+        <div>
+            <b>Departure Date/Time :-  </b>{{hd.legs.0.departure}}</div>
+        <div>
+            <b>Flight Name :- </b>{{hd.legs.0.carriers.marketing.0.name}} </div>
+        <div>
+            <b>Price :-  </b>{{hd.pricing_options.0.price.amount}} Rs</div>
+        <button class="btn btn-primary" type="submit">Book Now</button>
+        
+ 
+        <br/>  
+        
+        </div>
+        {% endfor %}
+        
+    </form>
+    </div>
+
+    
+
+</div>
+
+</body>
+
+{% endblock %}
