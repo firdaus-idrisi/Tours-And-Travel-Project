@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^7eq6x5d2@md%jv93wtuj$t0x%mb^@=-pg4^_kiq%sxejdnzq4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.0.0.108']#'192.168.1.24', 'localhost']
 
 
 # Application definition
@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'User_details',
     'crispy_forms',
     'hotels',
-    'HMS',
-    'HMS.booking_functions',
+    'flight', 
 ]
 
 MIDDLEWARE = [
@@ -134,7 +133,17 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'Static'),
     # os.path.join(BASE_DIR,'statics')
 ]
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_FILE_PATH = BASE_DIR / "sent_emails"
+# MAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = os.environ.get('user_email')
+# EMAIL_HOST_PASSWORD = os.environ.get('user_Password')

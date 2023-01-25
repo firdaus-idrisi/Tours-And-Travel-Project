@@ -129,7 +129,7 @@
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check_In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+													<input type="date" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
@@ -173,12 +173,12 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xs-12">
+											{% comment %} <div class="col-xs-12">
 												<button  input type="submit" value="Search Hotel">
                                                     <a href="{% url 'search' %}">
                                                        Search Hotel	 
                                                 </button>
-											</div>
+											</div> {% endcomment %}
 										</div>
 									 </div>
 									</div>
@@ -229,6 +229,18 @@
 	
 	<!-- Main JS -->
 	<script src="../Static/js/main.js"></script>
+	<script>
+		let date=new Date();
+		let year=date.getFullYear();
+		let month =date.getMonth()+1;
+		let day =date.getDate();
+		if(month<10){
+		month = '0'+ month;
+		}
+		let cdate = year+"-"+month+""+"-"+day;
+		
+		document.getElementById('date-start').setAttribute('min', cdate);
+	</script>
 
 	</body>
 </html>

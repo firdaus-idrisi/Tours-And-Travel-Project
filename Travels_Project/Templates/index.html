@@ -83,7 +83,7 @@
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="index">Home</a></li>
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Accounts</a>
 								<ul class="fh5co-sub-menu">
@@ -93,7 +93,7 @@
 							</li>
 							<li><a href="flight">Flights</a></li>
 							<li><a href="Hotel">Hotel</a></li>
-							<li><a href="contact">Contact</a></li>
+							<li><a href="Contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -192,10 +192,12 @@
 									<!-- HOTELS  DETAILS-->
 									 <div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
+											<form method="POST" >
+												{% csrf_token %}
 											<div class="col-xxs-12 col-xs-12 mt">
 												<div class="input-field">
 													<label for="from">Hotel_Name:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+													<input type="text" class="form-control" id="name" name="name" placeholder="Enter your hotel name ">
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
@@ -256,10 +258,10 @@
 							</div>
 							<div class="desc2 animate-box">
 								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-									<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>
+									{% comment %} <p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p> {% endcomment %}
 									<h2>Exclusive Limited Time Offer</h2>
 									<h3>Fly to Hong Kong via Los Angeles, USA</h3>
-									<span class="price">$599</span>
+									<span class="price">Rs 5999</span>
 									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
 								</div>
 							</div>
@@ -270,7 +272,7 @@
 
 		</div>
 		
-		<div id="fh5co-tours" class="fh5co-section-gray">
+		{% comment %} <div id="fh5co-tours" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -317,7 +319,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> {% endcomment %}
 
 		<div id="fh5co-features">
 			<div class="container">
