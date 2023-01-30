@@ -24,7 +24,7 @@ def home(request):
     hotels_objs = Hotel.objects.all()
 
     sort_by = request.GET.get('sort_by')
-    search = request.GET.get('search')
+    City = request.GET.get('City')
     amenities = request.GET.getlist('amenities')
     print(amenities)
     if sort_by:
@@ -33,10 +33,11 @@ def home(request):
         elif sort_by == 'DSC':
             hotels_objs = hotels_objs.order_by('-hotel_price')
 
-    if search:
+    if City:
         hotels_objs = hotels_objs.filter(
-            Q(hotel_name__icontains = search) |
-            Q(description__icontains = search) )
+            Q(City=City)|
+            Q(hotel_name__icontains = City) |
+            Q(City = City) )
 
 
     if len(amenities):
@@ -45,7 +46,7 @@ def home(request):
 
 
     context = {'amenities_objs' : amenities_objs , 'hotels_objs' : hotels_objs , 'sort_by' : sort_by 
-    , 'search' : search , 'amenities' : amenities}
+    , 'City' : City , 'amenities' : amenities}
     return render(request , 'home.html' ,context)
 
 def hotel_detail(request,uid):
@@ -69,3 +70,6 @@ def hotel_detail(request,uid):
     return render(request , 'hotel_detail.html' ,{
         'hotels_obj' :hotel_obj
     })
+
+def payment(request):
+    return render (request,"Payment.html")

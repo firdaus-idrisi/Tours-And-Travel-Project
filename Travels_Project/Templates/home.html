@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-
 {%  block start %}
 
 <!-- jumbotron and nav -->
@@ -87,6 +86,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="form-inline">
+                            <label class="" for="exampleFormControlSelect1">City</label>
+                            <input name="City" class="form-control" value="{{City}}" placeholder="Search"> 
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-inline">
                             <label class="" for="exampleFormControlSelect1">Search</label>
                             <input name="search" class="form-control" value="{{search}}" placeholder="Search"> 
                         </div>
@@ -113,9 +119,6 @@
                 
                 {% for hotels_obj in hotels_objs %}
                 <div class="row search-card-result">
-                
-
-                    
                     <div class="col-md-3">
                        
                     <a href="/hotel-detail/{{hotels_obj.uid}}">
@@ -125,6 +128,7 @@
                
                     <div class="col-md-5">
                         <h5>{{hotels_obj.hotel_name}}</h5>
+                        <h5>{{hotels_obj.City}}</h5>
                         
                         <p>
                             {{hotels_obj.description|truncatechars:150}}

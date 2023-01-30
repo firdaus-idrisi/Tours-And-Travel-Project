@@ -21,6 +21,7 @@ class Amenities(BaseModel):
         return self.amenity_name
 
 class Hotel(BaseModel):
+    City=models.CharField(max_length=150)
     hotel_name= models.CharField(max_length=100)
     hotel_price = models.IntegerField()
     description = models.TextField()
@@ -28,7 +29,7 @@ class Hotel(BaseModel):
     room_count = models.IntegerField(default=10)
 
     def __str__(self) -> str:
-        return self.hotel_name
+        return self.City
 
 
 class HotelImages(BaseModel):
