@@ -54,7 +54,7 @@ class hotel_list(models.Model):
 
 class Booking_details(models.Model):
     Hotel_Image=models.ImageField(upload_to="media", height_field=None, width_field=None, max_length=None,default='0.jpeg')
-    Hotel_Name=models.ForeignKey(hotel_list,on_delete=models.CASCADE)
+    Hotel_Name=models.ManyToManyField(hotel_list)
     Hotel_Price=models.IntegerField()
     Hotel_Rating=models.IntegerField()
 
