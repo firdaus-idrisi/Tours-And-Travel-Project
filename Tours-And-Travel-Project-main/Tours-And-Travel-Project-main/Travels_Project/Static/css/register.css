@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(225, 240, 234);
+}
+input{
+    margin: 5px;
+    width: 300px;
+    border-radius: 10px;
+}
+label{
+    margin: 5px;
+    display: block;
+}
+.br{
+    background-color: rgb(151, 191, 174);
+    margin-top: 30px;
+    padding: 10px 20px;
+    padding-left: 30px;
+    border: 2px solid orange;
+    border-radius: 25px;
+}
+

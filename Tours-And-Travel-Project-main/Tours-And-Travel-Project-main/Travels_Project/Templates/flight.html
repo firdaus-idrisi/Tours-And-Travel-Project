@@ -1,0 +1,746 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tours And Travel </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="../Static/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="../Static/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="../Static/css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="../Static/css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="../Static/css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="../Static/css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="../Static/css/cs-select.css">
+	<link rel="stylesheet" href="../Static/css/cs-skin-border.css">
+	
+	<link rel="stylesheet" href="../Static/css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="../static/js/modernizr-2.6.2.min.js"></script>
+	<script src="../static/js/respond.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<!-- <script src="js/respond.min.js"></script> -->
+	{% comment %} <![endif]--> {% endcomment %}
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="#"><i class="icon-airplane"></i>Travel</a></h1>
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active"><a href="index">Home</a></li>
+							<li>
+								<a href="#" class="fh5co-sub-ddown">Accounts</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="register">Registration</a></li>
+									<li><a href="login">Login</a></li>
+								</ul>
+							</li>
+							<li><a href="flight">Flights</a></li>
+							{% comment %} <li><a href="Hotel">Hotel</a></li> {% endcomment %}
+							<li><a href="contact">Contact</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+					</nav>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<!-- end:header-top -->
+		
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(../Static/images/cover_bg_1.jpg);">
+				<div class="desc">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active">
+								      	<a href="flight" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+								      </li>
+							
+								   </ul>
+								   	
+								   <!-- Tab panes -->
+									<div class="tab-content">
+										<form method="POST" id="flightform" >
+											{% csrf_token %}
+									<div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">From:</label>
+													<input type="text" class="form-control" id="from-place" name="from-place" placeholder="City Code: 'DEL' for Delhi"/>
+													<small></small>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">To:</label>
+													<input type="text" class="form-control" id="to-place" name="to-place"placeholder="City Code: 'LKO' for Lucknow"/>
+													<small></small>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Check_In:</label>
+													<input type="date" min=" " class="form-control" id="date-start" name="date-start" placeholder="yyyy/mm/dd"style="color:orangered; font-weight:bold; opacity:0.65;"/>
+													<small></small>
+												</div>
+											</div>
+											
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Class:</label>
+													<select id="select-class"class="cs-select cs-skin-border " name="Class" style="color:orangered; font-weight:bold; opacity:0.65;">
+														<option value="" selected>Select</option>
+														<option value="economy">Economy</option>
+														<option value="first">First</option>
+														<option value="business">Business</option>
+													
+													</select>
+													<small></small>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select id="select-adult" class="cs-select cs-skin-border " name="Adult" style="color:orangered; font-weight:bold; opacity:0.65;">
+														<option value="" selected>Select</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+													<br>
+													<small></small>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select id="select-child" class="cs-select cs-skin-border" name="Children"style="color:orangered; font-weight:bold; opacity:0.65;">
+														<option value=""  selected>Select</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+													<small></small>
+												</section>
+											</div>
+
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Flight">
+												
+											</div>
+										</div>
+									</div>
+								</form>
+
+									 
+
+									 <div role="tabpanel" class="tab-pane" id="packages">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Destination:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Departs:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Return:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>N/A</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
+
+											</div>
+										</div>
+									 </div>
+									</div>
+
+								</div>
+							</div>
+							<div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									<!-- <p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p> -->
+									<h2>Exclusive Limited Time Offer</h2>
+									<!-- <h3>Fly to Hong Kong via Los Angeles, USA</h3> -->
+									<span class="price">4,899 ₹
+
+									</span>
+									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		
+
+		
+
+		
+		<div id="fh5co-destination">
+			<div class="tour-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<ul id="fh5co-destination-list" class="animate-box">
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/lucknow.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Lucknow</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/delhi.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Delhi</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/banglore.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Bangalore</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/chenai.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Chennai</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/hydrabad.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Hyderabad</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-half text-center">
+								<div class="title-bg">
+									<div class="case-studies-summary">
+										<h2>Most Popular Destinations</h2>
+										<span><a href="#">View All Destinations</a></span>
+									</div>
+								</div>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/pune.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Pune</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/mumbai.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Mumbai</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/goa.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Goa</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/agra.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Agra</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(../Static/images/most_popular_img/jaipur.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Jaipur</h2>
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% comment %} <div id="fh5co-blog-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Recent From Blog</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row-bottom-padded-md">
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="../Static/images/gallary/.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">30% Discount to Travel All Around the World</a></h3>
+									<span class="posted_by">Sep. 15th</span>
+									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p><a href="#">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">Planning for Vacation</a></h3>
+									<span class="posted_by">Sep. 15th</span>
+									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p><a href="#">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">Visit Tokyo Japan</a></h3>
+									<span class="posted_by">Sep. 15th</span>
+									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p><a href="#">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="clearfix visible-md-block"></div>
+				</div>
+
+				<div class="col-md-12 text-center animate-box">
+					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="icon-arrow-right22"></i></a></p>
+				</div>
+
+			</div>
+		</div> {% endcomment %}
+		<!-- fh5co-blog-section -->
+		<div id="fh5co-testimonial" style="background-image:url(../Static/images/place-1.jpg);">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Happy Clients</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, CEO <a href="#" target="_blank">Go To Next Page</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, Founder <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>About Travel</h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Top Flights Routes</h3>
+							<ul>
+								<li><a href="#">Manila flights</a></li>
+								<li><a href="#">Dubai flights</a></li>
+								<li><a href="#">Bangkok flights</a></li>
+								<li><a href="#">Tokyo Flight</a></li>
+								<li><a href="#">New York Flights</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Top Hotels</h3>
+							<ul>
+								<li><a href="#">Boracay Hotel</a></li>
+								<li><a href="#">Dubai Hotel</a></li>
+								<li><a href="#">Singapore Hotel</a></li>
+								<li><a href="#">Manila Hotel</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Interest</h3>
+							<ul>
+								<li><a href="#">Beaches</a></li>
+								<li><a href="#">Family Travel</a></li>
+								<li><a href="#">Budget Travel</a></li>
+								<li><a href="#">Food &amp; Drink</a></li>
+								<li><a href="#">Honeymoon and Romance</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Best Places</h3>
+							<ul>
+								<li><a href="#">Boracay Beach</a></li>
+								<li><a href="#">Dubai</a></li>
+								<li><a href="#">Singapore</a></li>
+								<li><a href="#">Hongkong</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Affordable</h3>
+							<ul>
+								<li><a href="#">Food &amp; Drink</a></li>
+								<li><a href="#">Fare Flights</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-twitter2"></i></a>
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="#"><i class="icon-youtube"></i></a>
+							</p>
+							{% comment %} <p><a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p> {% endcomment %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="../static/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="../static/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="../static/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="../static/js/jquery.waypoints.min.js"></script>
+	<script src="../static/js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="../static/js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="../static/js/hoverIntent.js"></script>
+	<script src="../static/js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="../static/js/jquery.magnific-popup.min.js"></script>
+	<script src="../static/js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="../static/js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="../Static/js/classie.js"></script>
+	<script src="../Static/js/"></script>
+	
+	<!-- Main JS -->
+	<script src="../static/js/main.js"></script>
+	<script>
+		const flight_form= document.getElementById('flightform');
+const from_place = document.getElementById('from-place');
+const to_place = document.getElementById('to-place');
+const date_start = document.getElementById('date-start');
+const select_class = document.getElementById('select-class');
+const select_adult = document.getElementById('select-adult');
+const select_child = document.getElementById('select-child');
+
+flight_form.addEventListener('submit', function (e) {
+e.preventDefault();
+let valid = formvalidation();
+if (valid == true) {
+    e.currentTarget.submit();
+}
+});
+
+function formvalidation() {
+    const from_place_value = from_place.value.trim();
+    const to_place_value = to_place.value.trim();
+    const date_start_value = date_start.value.trim();
+    const select_class_value = select_class.value.trim();
+    const select_adult_value = select_adult.value.trim();
+    const select_child_value = select_child.value.trim();
+
+    /*validation functions */
+    let from_place_status = fromvalidate(from_place_value);
+    let to_place_status = tovalidate(from_place_value,to_place_value);
+    let date_start_status = datevalidate(date_start_value);
+    let select_class_status = classvalidate(select_class_value);
+    let select_status = personvalidate(select_adult_value,select_child_value);
+
+    // return true if all the validation is true 
+    if(from_place_status && to_place_status && date_start_status && select_class_status && select_status == true)
+    {
+        return true;
+    }
+}
+// id validate
+
+function fromvalidate(from) {
+    if (from === "") {
+        formerror(from_place, `Source cann't be empty`);
+        return false;
+    }
+    else {
+        formerror(from_place, "");
+        return true;
+    }
+
+}
+
+function tovalidate(from,to) {
+    if (to == ""){
+       formerror(to_place, `Destination cann't be empty`);
+    }
+    else{
+        if(from === to){
+        formerror(to_place, "Source and Destination cann't be same");
+        return false;
+        }
+        else{
+            formerror(to_place, "");
+            return true;
+        }
+    }
+
+}
+
+function personvalidate(person ,child){
+    if(person ==0 && child == 0 ){
+        formerror(select_adult, "Select atleast 1 Adult or child"); 
+        return false;
+    }
+    else{
+        formerror(select_adult, ""); 
+        return true;
+    }
+
+}
+
+function classvalidate(select_class_value){
+    if(select_class_value===""){
+        formerror(select_class, "Class shouldn't be empty"); 
+        return false;
+    }
+    else{
+        formerror(select_class, ""); 
+        return true;
+    }
+}
+
+function currentdate(){
+    let date=new Date();
+    let year=date.getFullYear();
+    let month =date.getMonth()+1;
+    let day =date.getDate();
+    if(month<10){
+    month = '0'+ month;
+    }
+    let cdate = year+"-"+month+""+"-"+day;
+   return cdate;
+
+}
+function datevalidate(date){
+    let currentdate1 = currentdate();
+    if(date ===''){
+        formerror(date_start, "Please select date"); 
+        return false; 
+    }
+    else if(date<currentdate1){
+        formerror(date_start, "Select date from today onwards"); 
+        return false; 
+    }
+    else{
+        formerror(date_start, ""); 
+        return true;
+    }
+}
+
+ {% comment %} error message  {% endcomment %}
+function formerror(input, message) {
+    let error = input.parentElement.querySelector('small');
+    error.innerHTML = message;
+    error.style = "color:red; font-size: 12px; font-weight : bold";
+}
+	</script>
+	<script>
+        let date=new Date();
+        let year=date.getFullYear();
+        let month =date.getMonth()+1;
+        let day =date.getDate();
+        if(month<10){
+        month = '0'+ month;
+        }
+        let cdate = year+"-"+month+""+"-"+day;
+        
+        document.getElementById('date-start').setAttribute('min', cdate);
+	</script>
+
+	</body>
+</html>
+

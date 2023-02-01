@@ -1,0 +1,1592 @@
+    Origin                   Destination  Duration Arrival_Date   Dept_Date carriers  itn_price
+0  Lucknow  Indira Gandhi International         75   28-01-2023  28-01-2023   IndiGo       5304
+1  Lucknow  Indira Gandhi International         75   28-01-2023  28-01-2023   IndiGo       5304
+2  Lucknow  Indira Gandhi International         75   29-01-2023  28-01-2023   IndiGo       5304
+3  Lucknow  Indira Gandhi International         80   28-01-2023  28-01-2023   IndiGo       6808
+4  Lucknow  Indira Gandhi International         70   28-01-2023  28-01-2023   IndiGo       6808
+5  Lucknow  Indira Gandhi International         75   28-01-2023  28-01-2023   IndiGo       8334
+6  Lucknow  Indira Gandhi International         70   28-01-2023  28-01-2023  Vistara      10278
+7  Lucknow  Indira Gandhi International         75   28-01-2023  28-01-2023   IndiGo      11112
+8  Lucknow  Indira Gandhi International        485   28-01-2023  28-01-2023   IndiGo      14406
+9  Lucknow  Indira Gandhi International        300   28-01-2023  28-01-2023   IndiGo      19290                         Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0  Indira Gandhi International      Lucknow        75   27-01-2023  27-01-2023  AirAsia India    2604.05
+1  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023  AirAsia India    2604.05
+2  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023  AirAsia India    2604.05
+3  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2652.00
+4  Indira Gandhi International      Lucknow        80   27-01-2023  27-01-2023         IndiGo    2652.00
+5  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2652.00
+6  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2851.00
+7  Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023         IndiGo    2851.00
+8  Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023      Air India    3266.33
+9  Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023      Air India    3266.33                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2303.46
+1   Indira Gandhi International      Lucknow        80   27-01-2023  27-01-2023         IndiGo    2303.46
+2   Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2303.46
+3   Indira Gandhi International      Lucknow        75   27-01-2023  27-01-2023  AirAsia India    2403.65
+4   Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023  AirAsia India    2403.65
+5   Indira Gandhi International      Lucknow        90   27-01-2023  27-01-2023         IndiGo    2508.00
+6   Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023         IndiGo    2509.00
+7   Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023         IndiGo    2510.00
+8   Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023  AirAsia India    2573.00
+9   Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023      Air India    2885.00
+10  Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023      Air India    2902.00
+11  Indira Gandhi International      Lucknow        70   27-01-2023  27-01-2023      Air India    3065.93
+12  Indira Gandhi International      Lucknow        75   27-01-2023  27-01-2023         IndiGo    3170.00
+13  Indira Gandhi International      Lucknow        75   27-01-2023  27-01-2023         IndiGo    3179.15
+14  Indira Gandhi International      Lucknow        65   27-01-2023  27-01-2023      Air India    3181.16
+15  Indira Gandhi International      Lucknow        75   27-01-2023  27-01-2023        Vistara    4890.00
+16  Indira Gandhi International      Lucknow       205   27-01-2023  27-01-2023   Alliance Air    5610.86
+17  Indira Gandhi International      Lucknow       180   27-01-2023  27-01-2023   Alliance Air    6212.03
+18  Indira Gandhi International      Lucknow       290   27-01-2023  27-01-2023         IndiGo    7077.00
+19  Indira Gandhi International      Lucknow       410   27-01-2023  27-01-2023         IndiGo    7613.74
+20  Indira Gandhi International      Lucknow       580   27-01-2023  27-01-2023         IndiGo    9317.04
+21  Indira Gandhi International      Lucknow       380   27-01-2023  27-01-2023         IndiGo    9517.43
+22  Indira Gandhi International      Lucknow       400   27-01-2023  27-01-2023         IndiGo    9517.43
+23  Indira Gandhi International      Lucknow       960   28-01-2023  27-01-2023      Air India    9533.00
+24  Indira Gandhi International      Lucknow       380   27-01-2023  27-01-2023      Air India    9970.31
+25  Indira Gandhi International      Lucknow       465   27-01-2023  27-01-2023  AirAsia India   10118.59
+26  Indira Gandhi International      Lucknow       320   27-01-2023  27-01-2023      Air India   10248.85
+27  Indira Gandhi International      Lucknow       890   28-01-2023  27-01-2023      Air India   10617.56
+28  Indira Gandhi International      Lucknow       355   27-01-2023  27-01-2023         IndiGo   10619.56
+29  Indira Gandhi International      Lucknow       510   27-01-2023  27-01-2023         IndiGo   11708.67
+30  Indira Gandhi International      Lucknow       295   28-01-2023  27-01-2023        Vistara   13004.00
+31  Indira Gandhi International      Lucknow       320   27-01-2023  27-01-2023        Vistara   13004.00
+32  Indira Gandhi International      Lucknow      1000   28-01-2023  27-01-2023      Air India   14627.33
+33  Indira Gandhi International      Lucknow      1225   28-01-2023  27-01-2023      Air India   16313.66
+34  Indira Gandhi International      Lucknow       515   27-01-2023  27-01-2023      Air India   17498.28
+35  Indira Gandhi International      Lucknow       355   27-01-2023  27-01-2023         IndiGo   17709.30                         Origin Destination  Duration Arrival_Date   Dept_Date  carriers  itn_price
+0  Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023  SpiceJet       8952
+1  Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023  SpiceJet       8952
+2  Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023    IndiGo      11218
+3  Indira Gandhi International       Mumbai       115   27-01-2023  27-01-2023    IndiGo      11218
+4  Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023   Vistara      11232
+5  Indira Gandhi International       Mumbai       120   27-01-2023  27-01-2023   Vistara      11232
+6  Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023   Vistara      11232
+7  Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023   Vistara      11232
+8  Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023   Vistara      11232
+9  Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023   Vistara      11232Empty DataFrame
+Columns: [Origin, Destination, Duration, Arrival_Date, Dept_Date, carriers, itn_price]
+Index: []    Origin Destination  Duration Arrival_Date   Dept_Date carriers  itn_price
+0  Lucknow      Mumbai       135   26-01-2023  26-01-2023   IndiGo       8498
+1  Lucknow      Mumbai       150   26-01-2023  26-01-2023   IndiGo       8636
+2  Lucknow      Mumbai       150   27-01-2023  26-01-2023   IndiGo       8636
+3  Lucknow      Mumbai       155   26-01-2023  26-01-2023   IndiGo       8636
+4  Lucknow      Mumbai       360   26-01-2023  26-01-2023   IndiGo      15638
+5  Lucknow      Mumbai       345   27-01-2023  26-01-2023   IndiGo      16442
+6  Lucknow      Mumbai       340   26-01-2023  26-01-2023   IndiGo      16908
+7  Lucknow      Mumbai       270   26-01-2023  26-01-2023  Vistara      17202
+8  Lucknow      Mumbai       285   26-01-2023  26-01-2023   IndiGo      19328
+9  Lucknow      Mumbai       330   26-01-2023  26-01-2023   IndiGo      20462                           Origin Destination  Duration Arrival_Date   Dept_Date        carriers  itn_price
+0    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+1    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+2    Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023       Air India    8781.00
+3    Indira Gandhi International       Mumbai       135   28-01-2023  27-01-2023       Air India    8781.00
+4    Indira Gandhi International       Mumbai       135   27-01-2023  27-01-2023       Air India    8781.00
+..                            ...         ...       ...          ...         ...             ...        ...
+165  Indira Gandhi International       Mumbai      1050   27-01-2023  27-01-2023       Air India   73441.24
+166  Indira Gandhi International       Mumbai       600   28-01-2023  27-01-2023        Emirates   88523.00
+167  Indira Gandhi International       Mumbai       585   27-01-2023  27-01-2023        Emirates  106605.48
+168  Indira Gandhi International       Mumbai       520   28-01-2023  27-01-2023  Etihad Airways  269320.63
+169  Indira Gandhi International       Mumbai      1310   28-01-2023  27-01-2023         Vistara  360898.01
+
+[170 rows x 7 columns]                           Origin Destination  Duration Arrival_Date   Dept_Date        carriers  itn_price
+0    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+1    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+2    Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023       Air India    8781.00
+3    Indira Gandhi International       Mumbai       135   28-01-2023  27-01-2023       Air India    8781.00
+4    Indira Gandhi International       Mumbai       135   27-01-2023  27-01-2023       Air India    8781.00
+..                            ...         ...       ...          ...         ...             ...        ...
+165  Indira Gandhi International       Mumbai      1050   27-01-2023  27-01-2023       Air India   73441.24
+166  Indira Gandhi International       Mumbai       600   28-01-2023  27-01-2023        Emirates   88523.00
+167  Indira Gandhi International       Mumbai       585   27-01-2023  27-01-2023        Emirates  106605.48
+168  Indira Gandhi International       Mumbai       520   28-01-2023  27-01-2023  Etihad Airways  269320.63
+169  Indira Gandhi International       Mumbai      1310   28-01-2023  27-01-2023         Vistara  360898.01
+
+[170 rows x 7 columns]                           Origin Destination  Duration Arrival_Date   Dept_Date        carriers  itn_price
+0    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+1    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+2    Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023       Air India    8781.00
+3    Indira Gandhi International       Mumbai       135   28-01-2023  27-01-2023       Air India    8781.00
+4    Indira Gandhi International       Mumbai       135   27-01-2023  27-01-2023       Air India    8781.00
+..                            ...         ...       ...          ...         ...             ...        ...
+165  Indira Gandhi International       Mumbai      1050   27-01-2023  27-01-2023       Air India   73441.24
+166  Indira Gandhi International       Mumbai       600   28-01-2023  27-01-2023        Emirates   88523.00
+167  Indira Gandhi International       Mumbai       585   27-01-2023  27-01-2023        Emirates  106605.48
+168  Indira Gandhi International       Mumbai       520   28-01-2023  27-01-2023  Etihad Airways  269320.63
+169  Indira Gandhi International       Mumbai      1310   28-01-2023  27-01-2023         Vistara  360898.01
+
+[170 rows x 7 columns]                           Origin Destination  Duration Arrival_Date   Dept_Date        carriers  itn_price
+0    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+1    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+2    Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023       Air India    8781.00
+3    Indira Gandhi International       Mumbai       135   28-01-2023  27-01-2023       Air India    8781.00
+4    Indira Gandhi International       Mumbai       135   27-01-2023  27-01-2023       Air India    8781.00
+..                            ...         ...       ...          ...         ...             ...        ...
+165  Indira Gandhi International       Mumbai      1050   27-01-2023  27-01-2023       Air India   73441.24
+166  Indira Gandhi International       Mumbai       600   28-01-2023  27-01-2023        Emirates   88523.00
+167  Indira Gandhi International       Mumbai       585   27-01-2023  27-01-2023        Emirates  106605.48
+168  Indira Gandhi International       Mumbai       520   28-01-2023  27-01-2023  Etihad Airways  269320.63
+169  Indira Gandhi International       Mumbai      1310   28-01-2023  27-01-2023         Vistara  360898.01
+
+[170 rows x 7 columns]                           Origin Destination  Duration Arrival_Date   Dept_Date        carriers  itn_price
+0    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+1    Indira Gandhi International       Mumbai       125   27-01-2023  27-01-2023        SpiceJet    8228.00
+2    Indira Gandhi International       Mumbai       130   27-01-2023  27-01-2023       Air India    8781.00
+3    Indira Gandhi International       Mumbai       135   28-01-2023  27-01-2023       Air India    8781.00
+4    Indira Gandhi International       Mumbai       135   27-01-2023  27-01-2023       Air India    8781.00
+..                            ...         ...       ...          ...         ...             ...        ...
+165  Indira Gandhi International       Mumbai      1050   27-01-2023  27-01-2023       Air India   73441.24
+166  Indira Gandhi International       Mumbai       600   28-01-2023  27-01-2023        Emirates   88523.00
+167  Indira Gandhi International       Mumbai       585   27-01-2023  27-01-2023        Emirates  106605.48
+168  Indira Gandhi International       Mumbai       520   28-01-2023  27-01-2023  Etihad Airways  269320.63
+169  Indira Gandhi International       Mumbai      1310   28-01-2023  27-01-2023         Vistara  360898.01
+
+[170 rows x 7 columns]                         Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo       2652
+1  Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo       2652
+2  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo       2652
+3  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo       2851
+4  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo       2851
+5  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India       3341
+6  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India       3341
+7  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo       4128
+8  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo       4128
+9  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India       5038                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28                          Origin Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2152.00
+1   Indira Gandhi International      Lucknow        80   29-01-2023  29-01-2023         IndiGo    2153.00
+2   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    2154.00
+3   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023         IndiGo    2349.00
+4   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    2355.00
+5   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    2403.65
+6   Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023  AirAsia India    2403.65
+7   Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023      Air India    2942.00
+8   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3067.00
+9   Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    3181.16
+10  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023         IndiGo    3567.00
+11  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023         IndiGo    3617.00
+12  Indira Gandhi International      Lucknow        70   29-01-2023  29-01-2023  AirAsia India    3969.00
+13  Indira Gandhi International      Lucknow        75   29-01-2023  29-01-2023        Vistara    5845.00
+14  Indira Gandhi International      Lucknow       290   29-01-2023  29-01-2023         IndiGo    6211.02
+15  Indira Gandhi International      Lucknow        65   29-01-2023  29-01-2023      Air India    6236.00
+16  Indira Gandhi International      Lucknow       520   29-01-2023  29-01-2023         IndiGo    7282.00
+17  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023         IndiGo    8558.00
+18  Indira Gandhi International      Lucknow      1305   30-01-2023  29-01-2023         IndiGo    9517.43
+19  Indira Gandhi International      Lucknow       260   29-01-2023  29-01-2023   Alliance Air   10419.18
+20  Indira Gandhi International      Lucknow       380   29-01-2023  29-01-2023      Air India   10601.00
+21  Indira Gandhi International      Lucknow       320   29-01-2023  29-01-2023      Air India   11566.00
+22  Indira Gandhi International      Lucknow       465   29-01-2023  29-01-2023  AirAsia India   11922.09
+23  Indira Gandhi International      Lucknow       325   29-01-2023  29-01-2023       Go First   12122.47
+24  Indira Gandhi International      Lucknow       355   29-01-2023  29-01-2023         IndiGo   13324.80
+25  Indira Gandhi International      Lucknow       305   29-01-2023  29-01-2023         IndiGo   13925.97
+26  Indira Gandhi International      Lucknow       245   29-01-2023  29-01-2023         IndiGo   14226.55
+27  Indira Gandhi International      Lucknow       515   29-01-2023  29-01-2023      Air India   15929.85
+28  Indira Gandhi International      Lucknow      2360   31-01-2023  29-01-2023      Air India   19281.28    Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0  Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2358.00
+1  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2608.00
+2  Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2652.00
+3  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2850.00
+4  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+5  Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3404.00
+6  Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    3428.00
+7  Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3605.99
+8  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    4222.00
+9  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4508.74     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76     Origin                   Destination  Duration Arrival_Date   Dept_Date       carriers  itn_price
+0   Lucknow  Indira Gandhi International         75   28-01-2023  27-01-2023         IndiGo    2244.00
+1   Lucknow  Indira Gandhi International         70   28-01-2023  27-01-2023  AirAsia India    2403.65
+2   Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023  AirAsia India    2403.65
+3   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    2503.84
+4   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023  AirAsia India    2769.00
+5   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3021.00
+6   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023         IndiGo    3105.01
+7   Lucknow  Indira Gandhi International         80   27-01-2023  27-01-2023      Air India    3226.24
+8   Lucknow  Indira Gandhi International         85   27-01-2023  27-01-2023         IndiGo    3460.70
+9   Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3708.18
+10  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023         IndiGo    3906.56
+11  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023         IndiGo    3955.66
+12  Lucknow  Indira Gandhi International         75   27-01-2023  27-01-2023      Air India    4566.85
+13  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023        Vistara    4809.31
+14  Lucknow  Indira Gandhi International         70   27-01-2023  27-01-2023      Air India    6648.88
+15  Lucknow  Indira Gandhi International        445   27-01-2023  27-01-2023         IndiGo    6661.90
+16  Lucknow  Indira Gandhi International        330   28-01-2023  27-01-2023         IndiGo    9818.01
+17  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo    9918.21
+18  Lucknow  Indira Gandhi International        375   27-01-2023  27-01-2023         IndiGo   10719.76
+19  Lucknow  Indira Gandhi International        365   27-01-2023  27-01-2023         IndiGo   11193.68
+20  Lucknow  Indira Gandhi International        380   27-01-2023  27-01-2023      Air India   11815.00
+21  Lucknow  Indira Gandhi International        320   27-01-2023  27-01-2023         IndiGo   11922.09
+22  Lucknow  Indira Gandhi International       1135   28-01-2023  27-01-2023      Air India   16167.89
+23  Lucknow  Indira Gandhi International        550   27-01-2023  27-01-2023      Air India   30858.76

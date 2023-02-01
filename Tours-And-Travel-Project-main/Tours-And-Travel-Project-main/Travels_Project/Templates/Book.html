@@ -1,0 +1,19 @@
+<h1>Booking Details</h1>
+
+
+<html>
+  <head>
+    <title>Booking Information</title>
+  </head>
+  <body>
+    {% for hd in hotel_data %}
+        <p>City: {{ hd.City }}</p>
+        <p>Hotel_Name: {{hd.hotel_name}}</p>
+        <p>Hotel_Price: {{ hd.hotel_price }}</p>
+        <p>Check_Out: {{ hd.Check_Out }}</p>
+        <p>Rating: {{hd.hotel_rating}}</p>
+        
+    {% endfor %}
+  </body>
+
+</html> 

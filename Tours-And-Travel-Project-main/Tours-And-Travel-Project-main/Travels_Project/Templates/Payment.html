@@ -1,0 +1,32 @@
+{% comment %} {% extends "hotel_detail.html" %} {% endcomment %}
+<h1> Payment Details </h1>
+
+
+<div class="container mt-5 pt-5">
+    <div class="row search-card-result">
+        <a href="/hotel-detail/{{hotels_obj.uid}}">
+            <img class="img-fluid" src="/media/{{hotels_obj.images.first.images}}" alt="Card image cap">
+        
+        </a></div>
+        <div class="col-md-5">
+            <h5>{{hotels_obj.hotel_name}}</h5>
+            
+            <p>
+                {{hotels_obj.description|truncatechars:150}}
+            </p>
+            <p>
+                {%for amenitie in hotels_obj.amenities.all %}
+                <b>{{amenitie.amenity_name}}</b>,
+                {% endfor %}
+            </p>
+            
+        </div>
+
+
+<p>Username: </p>
+<p>Check_In: </p>
+<p>Check_Out: </p>
+<p>Hotel_Name: {{hotels_obj.hotel_name}} </p>
+<p>Total Pay :</p>
+
+
