@@ -1,5 +1,6 @@
 from django.shortcuts import render , redirect
 from django.contrib.auth.models import User
+
 from django.contrib.auth import authenticate , login
 from django.contrib import messages
 from django.http import HttpResponseRedirect, JsonResponse
@@ -19,6 +20,7 @@ def check_booking(start_date  , end_date ,uid , room_count):
         return False
     
     return True
+
 def home(request):
     amenities_objs = Amenities.objects.all()
     hotels_objs = Hotel.objects.all()
@@ -56,11 +58,12 @@ def hotel_detail(request,uid):
         checkin = request.POST.get('checkin')
         checkout= request.POST.get('checkout')
         hotel = Hotel.objects.get(uid = uid)
+        
         if not check_booking(checkin ,checkout  , uid , hotel.room_count):
             messages.warning(request, 'Hotel is already booked in these dates ')
             return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
-        HotelBooking.objects.create(hotel=hotel , user = request.user , start_date=checkin
+        HotelBooking.objects.create(hotel=hotel , user = request.user, start_date=checkin
         , end_date = checkout , booking_type  = 'Pre Paid')
         
         messages.success(request, 'Your booking has been saved')
@@ -72,4 +75,13 @@ def hotel_detail(request,uid):
     })
 
 def payment(request):
+    # hotels_objs = Hotel.objects.get(uid=uid)
+    # if request.method=="POST":
+    #     City = request.POST.get('City')
+    #     checkin = request.POST.get('checkin')
+    #     checkout= request.POST.get('checkout')
+    #     hotel = Hotel.objects.get(uid = uid)
+    #     hotel_name=request.POST.get('hotel_name')
+
+
     return render (request,"Payment.html")

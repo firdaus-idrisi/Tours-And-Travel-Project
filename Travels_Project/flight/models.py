@@ -7,7 +7,7 @@ from django.dispatch import receiver
 from PIL import Image
 from django.contrib.auth.models import User
 from django.db import models
-from User_details.models import User_detail
+# from User_details.models import User_detail
 
 
 
