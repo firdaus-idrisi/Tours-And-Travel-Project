@@ -15,23 +15,26 @@
         <div class="col-md-5">
             <h5>{{hotels_obj.hotel_name}}</h5>
             <h5>{{hotels_obj.City}}</h5>
+            <h5>{{hotels_obj.room }}</h5>
             
             <p>
                 {{hotels_obj.description|truncatechars:150}}
             </p>
+           
             <p>
                 {%for amenitie in hotels_obj.amenities.all %}
                 <b>{{amenitie.amenity_name}}</b>,
                 {% endfor %}
             </p>
-            
+
+         
         </div>
         <div class="col-md-2 border-left text-center more-offers">
             
             <p>Place.com</p>
             <p>${{hotels_obj.hotel_price}}</p>
             <p>Room count</p>
-            <p>{{hotels_obj.room_count}}</p>
+            <p>{{hotels_obj.room}}</p>
         </div>
         <div class="col-md-2 border-left text-center more-offers">
            

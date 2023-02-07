@@ -1,27 +1,60 @@
-{% extends "base.html" %}
-{%  block start %}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 
-<!-- jumbotron and nav -->
-<section class="colorful jumbotron mb-0" role="banner">
-    <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
-        <div class="navbar-brand">
-            <a href="index.html">Hotel Spoof
-                <em>.</em>
-            </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-       
-    </nav>
+  h1 {text-align: center;}
 
-    <div class="container hotels-container">
+body {
+  background-color: lightgrey;
+}.rectangle {
+  height: 300px;
+  width: 1570px;
+  background-color: lightblue;
+  border: 2.5px solid black;
+  
+}
+.rectangle1 {
+  height: 300px;
+  width: 1570px;
+  background-color: lightblue;
+  border: 2.5px solid black;
+  
+}
+  
+</style>
+</head>
+<body>
+    <h1>Details of Hotel Booking</h1>
+
+<div class="rectangle">
+    
+    <h3>Usernme : {{user.username}}</h3>
+    <p>Hotel_Name : </p>
+    <p>Check_In : </p>
+    <p>Check_Out: </p>
+    <p>Rooms: </p>
+    <p>Adult: </p>
+    <p>Children: </p>
+    <p>Total Pay : </p>
+
+</div>
+
+<>
 
 
-    </div>
-</section>
+<div class="rectangle1">
+    
+  <h3>Usernme : {{user.username}}</h3>
+  <p>Hotel_Name : </p>
+  <p>Check_In : </p>
+  <p>Check_Out: </p>
+  <p>Rooms: </p>
+  <p>Adult: </p>
+  <p>Children: </p>
+  <p>Total Pay : </p>
 
+</div>
 
-
-{% endblock %}
+</body>
+</html>
