@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+body{
+    background-color: linear-gradient(to right, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+}
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -28,8 +30,8 @@
 
 .query-data-div{
     min-height: 11vh;
-    background-color: crimson;
-    background-image: linear-gradient(135deg, crimson, #b8017b);
+    background-color: #70b2eb;
+    /* background-image: linear-gradient(135deg, crimson, #b8017b); */
     display: flex;
 }
 .query-data-div2{
@@ -95,8 +97,7 @@
     padding-left: 12px;
     padding-right: 12px;
 }
-.trip-modify button{
-}
+
 .spl-btn{
     transition-duration: .2s;
     color: white;

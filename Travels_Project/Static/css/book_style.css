@@ -1,5 +1,5 @@
 .section1{
-    background-color: rgba(10, 0, 0, .05);
+    background-color: rgb(9 107 220 / 37%);
 }
 .col-8 > div, .col-4 > div{
     background-color: #fff;
@@ -321,9 +321,9 @@ h5{
         padding-left: 5px;
         padding-right: 5px;
     }
-    .ticket-details-div .airport{
+    /* .ticket-details-div .airport{
         
-    }
+    } */
     .ticket-details-div .time-details{
         display: flex;
     }

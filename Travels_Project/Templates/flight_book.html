@@ -10,7 +10,7 @@
 
 {% block body %}
     <section class="section section1">
-        <form action="{% url 'book' %}" onsubmit="return book_submit()" method="POST">
+        <form action="{% url 'bookinng' %}" onsubmit="return book_submit()" method="POST">
             {% csrf_token %}
             <input type="hidden" name="flight1" value="{{flight1.id}}">
             <input type="hidden" name="flight1Date" value='{{flight1ddate | date:"d-m-Y"}}'>
@@ -396,9 +396,52 @@
                         <button class="add-traveller-btn text-uppercase btn"  type="button" data-toggle="collapse" data-target="#collapseExample">+ ADD ADULT</button>
                     </div>
                 </div>
-                <div class="payment-btn" style="background-color: transparent;">
-                    <button type="submit" class="btn btn-primary btn-danger">Proceed to payment</button>
-                </div>
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                      <div id="paypal-button-container"></div>
+                    </div>
+                  </div>
+                  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                  <script>
+                  function initPayPalButton() {
+                    paypal.Buttons({
+                      style: {
+                        shape: 'rect',
+                        color: 'gold',
+                        layout: 'horizontal',
+                        label: 'paypal',
+                        
+                      },
+                  
+                      createOrder: function(data, actions) {
+                        return actions.order.create({
+                          purchase_units: [{"amount":{"currency_code":"USD","value":1}}]
+                        });
+                      },
+                  
+                      onApprove: function(data, actions) {
+                        return actions.order.capture().then(function(orderData) {
+                          
+                          // Full available details
+                          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                  
+                          // Show a success message within this page, e.g.
+                          const element = document.getElementById('paypal-button-container');
+                          element.innerHTML = '';
+                          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                  
+                          // Or go to another URL:  actions.redirect('thank_you.html');
+                          
+                        });
+                      },
+                  
+                      onError: function(err) {
+                        console.log(err);
+                      }
+                    }).render('#paypal-button-container');
+                  }
+                  initPayPalButton();
+                  </script>
                 </div>
                 <div class="col-4">
                     <div class="price-details">
@@ -438,7 +481,7 @@
                             </div>
                         </div>
                         <div class="row surcharges">
-                            <div class="surcharges-label">Fee & Surcharges: </div>
+                            <div class="surcharges-label">Fee & Subcharges: </div>
                             <div class="surcharges-value">₹ <span>{{fee}}</span></div>
                             <input type="hidden" id="fee" value="{{fee}}">
                         </div>
@@ -490,9 +533,9 @@
                     </div>
                 </div>
                 <div class="col media-payment-btn">
-                    <div>
+                    {% comment %} <div>
                         <button type="submit" class="btn btn-primary btn-danger">Proceed to payment</button>
-                    </div>
+                    </div> {% endcomment %}
                 </div>
             </div>
         </form>

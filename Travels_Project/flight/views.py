@@ -282,7 +282,7 @@ def flight_search(request):
             min_price = 0
 
         if trip_type == '2':    
-            flights2 = Flight.objects.filter(depart_day=flightday2,origin=origin2,destination=destination2).exclude(economy_fare=0).order_by('economy_fare')    ##
+            flights2 = Flight.objects.filter(depart_day=flightday2,origin=origin2,destination=destination2).exclude(economy_fare=0).order_by('economy_fare')    
             try:
                 max_price2 = flights2.last().economy_fare   
                 min_price2 = flights2.first().economy_fare  
@@ -299,14 +299,14 @@ def flight_search(request):
             max_price = 0
             min_price = 0
 
-        if trip_type == '2':    ##
-            flights2 = Flight.objects.filter(depart_day=flightday2,origin=origin2,destination=destination2).exclude(business_fare=0).order_by('business_fare')    ##
+        if trip_type == '2':    
+            flights2 = Flight.objects.filter(depart_day=flightday2,origin=origin2,destination=destination2).exclude(business_fare=0).order_by('business_fare')    
             try:
-                max_price2 = flights2.last().business_fare   ##
-                min_price2 = flights2.first().business_fare  ##
+                max_price2 = flights2.last().business_fare   
+                min_price2 = flights2.first().business_fare  
             except:
-                max_price2 = 0  ##
-                min_price2 = 0  ##
+                max_price2 = 0  
+                min_price2 = 0  
                 
     elif seat == 'first':
         flights = Flight.objects.filter(depart_day=flightday,origin=origin,destination=destination).exclude(first_fare=0).order_by('first_fare')
@@ -317,14 +317,14 @@ def flight_search(request):
             max_price = 0
             min_price = 0
             
-        if trip_type == '2':    ##
+        if trip_type == '2':    
             flights2 = Flight.objects.filter(depart_day=flightday2,origin=origin2,destination=destination2).exclude(first_fare=0).order_by('first_fare')
             try:
-                max_price2 = flights2.last().first_fare   ##
-                min_price2 = flights2.first().first_fare  ##
+                max_price2 = flights2.last().first_fare   
+                min_price2 = flights2.first().first_fare  
             except:
-                max_price2 = 0  ##
-                min_price2 = 0  ##    ##
+                max_price2 = 0  
+                min_price2 = 0      
                 
     # print(calendar.day_name[depart_date.weekday()])            
     if trip_type == '2':
@@ -357,24 +357,24 @@ def flight_search(request):
             'min_price': math.floor(min_price/100)*100
         })
     
-def book(request):
+def bookinng(request):
     if request.method == 'POST':
         if request.user.is_authenticated:
-            flight_1 = request.POST.get('flight1')
-            flight_1date = request.POST.get('flight1Date')
-            flight_1class = request.POST.get('flight1Class')
+            flight_1 = request.POST('flight1')
+            flight_1date = request.POST('flight1Date')
+            flight_1class = request.POST('flight1Class')
             f2 = False
             if request.POST.get('flight2'):
-                flight_2 = request.POST.get('flight2')
-                flight_2date = request.POST.get('flight2Date')
-                flight_2class = request.POST.get('flight2Class')
+                flight_2 = request.POST('flight2')
+                flight_2date = request.POST('flight2Date')
+                flight_2class = request.POST('flight2Class')
                 f2 = True
             countrycode = request.POST['countryCode']
             mobile = request.POST['mobile']
             email = request.POST['email']
             flight1 = Flight.objects.get(id=flight_1)
             if f2:
-                flight2 = Flight.objects.get(id=flight_2)
+                flight2 = Flight.objects(id=flight_2)
             passengerscount = request.POST['passengersCount']
             passengers=[]
             for i in range(1,int(passengerscount)+1):
@@ -382,7 +382,7 @@ def book(request):
                 lname = request.POST[f'passenger{i}LName']
                 gender = request.POST[f'passenger{i}Gender']
                 passengers.append(Passenger.objects.create(first_name=fname,last_name=lname,gender=gender.lower()))
-            coupon = request.POST.get('coupon')
+            coupon = request.POST('coupon')
             
             try:
                 ticket1 = createticket(request.user,passengers,passengerscount,flight1,flight_1date,flight_1class,coupon,countrycode,email,mobile)
@@ -434,6 +434,8 @@ def bookings(request):
         return HttpResponseRedirect(reverse('login'))
     
     
+
+
     
 def review(request):
     flight_1 = request.GET.get('flight1Id')
@@ -481,6 +483,24 @@ def review(request):
         })
     else:
         return HttpResponseRedirect(reverse("login"))
+    
+    
+# def payments(request):
+#     body = json.loads(request.body)
+#     order = Ticke .objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
+#     ''' store transaction details inside payment model.. '''
+#     payment = Payment(
+#         user = request.user,
+#         payment_id = body['transID'],
+#         payment_method = body['payment_method'],
+#         amount_paid = order.order_total,
+#         status = body['status'],
+#     )
+#     payment.save()
+
+#     order.payment = payment
+#     order.is_ordered = True
+#     order.save()
 
 
 

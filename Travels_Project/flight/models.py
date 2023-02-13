@@ -7,10 +7,12 @@ from django.dispatch import receiver
 from PIL import Image
 from django.contrib.auth.models import User
 from django.db import models
+
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 from datetime import datetime
+
 
 
 
@@ -110,6 +112,19 @@ class Ticket(models.Model):
 
     def __str__(self):
         return self.ref_no
+    
+    
+class Payment(models.Model):
+    big_id = models.BigAutoField(primary_key = True)
+    user = models.ForeignKey(Ticket, on_delete=models.CASCADE)
+    payment_id = models.CharField(max_length=100)
+    payment_method = models.CharField(max_length=100)
+    amount_paid = models.CharField(max_length=100)
+    status = models.CharField(max_length=100)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.payment_id
 
     
 

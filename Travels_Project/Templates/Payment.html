@@ -1,32 +1,27 @@
-{% comment %} {% extends "hotel_detail.html" %} {% endcomment %}
-<h1> Payment Details </h1>
+{% extends "base.html" %}
+{%  block start %}
 
-
-<div class="container mt-5 pt-5">
-    <div class="row search-card-result">
-        <a href="/hotel-detail/{{hotels_obj.uid}}">
-            <img class="img-fluid" src="/media/{{hotels_obj.images.first.images}}" alt="Card image cap">
-        
-        </a></div>
-        <div class="col-md-5">
-            <h5>{{hotels_obj.hotel_name}}</h5>
-            
-            <p>
-                {{hotels_obj.description|truncatechars:150}}
-            </p>
-            <p>
-                {%for amenitie in hotels_obj.amenities.all %}
-                <b>{{amenitie.amenity_name}}</b>,
-                {% endfor %}
-            </p>
-            
+<!-- jumbotron and nav -->
+<section class="colorful jumbotron mb-0" role="banner">
+    <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
+        <div class="navbar-brand">
+            <a href="index.html">Hotel Spoof
+                <em>.</em>
+            </a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+    </nav>
+
+    <div class="container hotels-container">
 
 
-<p>Username: </p>
-<p>Check_In: </p>
-<p>Check_Out: </p>
-<p>Hotel_Name: {{hotels_obj.hotel_name}} </p>
-<p>Total Pay :</p>
+    </div>
+</section>
 
 
+
+{% endblock %}
