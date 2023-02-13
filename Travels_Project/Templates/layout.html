@@ -53,13 +53,13 @@
             <a class="nav-link" href="{% url 'bookings' %}">My Bookings</a>
           </li>
           <li class="nav-item {% if page == 'flight_search' %}active{% endif %}" >
-            <a class="nav-link" href="{% url 'flight_search' %}">Flight</a>
+            <a class="nav-link" href="{% url 'flight' %}">Flight</a>
           </li>
           <li class="nav-item {% if page == 'Contact' %}active{% endif %}">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="{% url 'Contact' %}">Contact</a>
           </li>
           <li class="nav-item {% if page == 'register' %}active{% endif %}">
-            <a class="nav-link" href="{% url 'register' %}">register</a>
+            <a class="nav-link" href="{% url 'register' %}">Registeration</a>
           </li>
 
         </ul>

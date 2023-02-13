@@ -91,13 +91,15 @@
                         </div>
 
                     </div>
+
                     <div class="col-md-4">
                         <div class="form-inline">
-                            <label class="" for="exampleFormControlSelect1">Search</label>
-                            <input name="search" class="form-control" value="{{search}}" placeholder="Search"> 
+                            <label class="" for="exampleFormControlSelect1">Room</label>
+                            <input name="search" class="form-control" value="{{Room}}" placeholder="Search"> 
                         </div>
-
                     </div>
+
+
                     <div class="col-md-4">
                         <div class="form-inline">
                            <label class="" for="exampleFormControlSelect1">Amenities</label>
@@ -110,6 +112,8 @@
                         </div>
 
                     </div>
+                    
+                   
                     <div class="col-md-4">
                      
                             <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
@@ -130,6 +134,7 @@
                         <h5>{{hotels_obj.hotel_name}}</h5>
                         <h5>{{hotels_obj.City}}</h5>
                         
+                        
                         <p>
                             {{hotels_obj.description|truncatechars:150}}
                         </p>
@@ -147,7 +152,7 @@
                         <p>${{hotels_obj.hotel_price}}</p>
                         
                         <p>Room count</p>
-                        <p>{{hotels_obj.room_count}}</p>
+                        <p>{{hotels_obj.room}}</p>
                     </div>
                     <div class="col-md-2 border-left text-center more-offers">
                        
