@@ -7,7 +7,7 @@ from  flight.models import (fight_table,
                             Flight,Week,
                             Place,
                             Passenger,
-                            Ticket)
+                            Ticket,Payment)
 from django.http import JsonResponse
 from flight import models
 from datetime import datetime
@@ -485,11 +485,29 @@ def review(request):
         return HttpResponseRedirect(reverse("login"))
     
     
+# def payments(request):
+#     body = json.loads(request.body)
+#     order = Ticket .objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
+#     ''' store transaction details inside payment model.. '''
+#     payment = payment(
+#         user = request.user,
+#         payment_id = body['transID'],
+#         payment_method = body['payment_method'],
+#         amount_paid = order.order_total,
+#         status = body['status'],
+#     )
+#     payment.save()
+
+#     order.payment = payment
+#     order.is_ordered = True
+#     order.save()
+
+
 def payments(request):
     body = json.loads(request.body)
-    order = Ticket .objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
-    ''' store transaction details inside payment model.. '''
-    payment = payment(
+    order = Ticket.objects.get(user=request.user, is_ordered=False)
+   
+    payment = Payment(
         user = request.user,
         payment_id = body['transID'],
         payment_method = body['payment_method'],
