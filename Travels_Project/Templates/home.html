@@ -3,57 +3,14 @@
 {%  block start %}
 
 <!-- jumbotron and nav -->
-<section class="colorful jumbotron mb-0" role="banner">
-    <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
-        <header id="fh5co-header-section" class="sticky-banner">
-			<div class="container">
-				<div class="nav-header">
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>Travel</a></h1>
-					<!-- START #fh5co-menu-wrap -->
-					<nav id="fh5co-menu-wrap" role="navigation">
-						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index">Home</a></li>
-							<li>
-								<a href="#" class="fh5co-sub-ddown">Accounts</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="register">Registration</a></li>
-									<li><a href="login">Login</a></li>
-								</ul>
-							</li>
-							<li><a href="flight">Flights</a></li>
-							<li><a href="home">Hotel</a></li>
-							{% comment %} <li><a href="home">Hotel</a></li> {% endcomment %}
-							<li><a href="Contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-       
-    </nav>
+<section class="colorful jumbotron mb-0" role="banner"></section>
 
-    {% comment %} <div class="container hotels-container">
-
-        <div class="row mt-2 justify-content-between">
-            <div class="col-md-8 text-white align-self-center mb-2 p-4">
-                <h1>HOTEL Place</h1>
-                <span class=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum debitis perspiciatis sed iusto
-                    eveniet neque natus quidem velit optio cumque saepe repudiandae vero, sit hic adipisci laudantium libero blanditiis
-                    animi.
-                </span>
-            </div>
-           
-        </div>
-    </div> {% endcomment %}
-</section>
-
-<section class="search-container mb-5 pb-5">
+<section class="search-container mb-5 pb-5 " style="padding-top:50px;" >
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
                 <div class="row my-3">
-                
+                    
                 </div>
                 <div class="row mt-2 justify-content-between">
                     <div class="filter-card">
@@ -92,27 +49,36 @@
                 <div class="row mt-3">
                     <div class="col-md-4">
                     <div class="form-inline">
-                        <label class="" for="exampleFormControlSelect1">Sort by</label>
-                        <select class="form-control" name="sort_by" id="exampleFormControlSelect1">
-                            <option value="">Recommended</option>
-                            <option {% if sort_by == 'ASC' %} selected {%endif %} value="ASC">ASC</option>
-                            <option {% if sort_by == 'DSC' %} selected {%endif %} value="DSC">DSC</option>
-                           
-                        </select>
-                    </div>
-                    </div>
-                    <div class="col-md-4">
                         <div class="form-inline">
                             <label class="" for="exampleFormControlSelect1">City</label>
-                            <input name="City" class="form-control" value="{{City}}" placeholder="Search"> 
+                            <input name="City" class="form-control" value="{{City}}" placeholder="City"> 
                         </div>
+                        {% comment %} <label class="" for="exampleFormControlSelect1">City</label>
+                        <input name="City" class="form-control" value="{{City}}" placeholder="City">  {% endcomment %}
 
+                        
                     </div>
+                    </div>
+                    
 
                     <div class="col-md-4">
                         <div class="form-inline">
                             <label class="" for="exampleFormControlSelect1">Room</label>
-                            <input name="search" class="form-control" value="{{Room}}" placeholder="Search"> 
+                            <input name="search" class="form-control" value="{{Room}}" placeholder="Room"> 
+                        </div>
+                    </div> 
+
+                    <div class="col-md-4">
+                        <div class="form-inline">
+                            <label class="" for="exampleFormControlSelect1">Child</label>
+                            <input name="search" class="form-control" value="{{Child}}" placeholder="Child"> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-inline">
+                            <label class="" for="exampleFormControlSelect1">Adult</label>
+                            <input name="search" class="form-control" value="{{Adult}}" placeholder="Adult"> 
                         </div>
                     </div>
 
@@ -129,8 +95,6 @@
                         </div>
 
                     </div>
-                    
-                   
                     <div class="col-md-4">
                      
                             <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
@@ -139,7 +103,10 @@
                 </form>
                 
                 {% for hotels_obj in hotels_objs %}
+
+                
                 <div class="row search-card-result">
+                    
                     <div class="col-md-3">
                        
                     <a href="/hotel-detail/{{hotels_obj.uid}}">
@@ -150,7 +117,6 @@
                     <div class="col-md-5">
                         <h5>{{hotels_obj.hotel_name}}</h5>
                         <h5>{{hotels_obj.City}}</h5>
-                        
                         
                         <p>
                             {{hotels_obj.description|truncatechars:150}}
@@ -165,11 +131,9 @@
                     <div class="col-md-2 border-left text-center more-offers">
                         
                         <p>Place.com</p>
-                        
                         <p>${{hotels_obj.hotel_price}}</p>
-                        
                         <p>Room count</p>
-                        <p>{{hotels_obj.room}}</p>
+                        <p>{{hotels_obj.room_count}}</p>
                     </div>
                     <div class="col-md-2 border-left text-center more-offers">
                        

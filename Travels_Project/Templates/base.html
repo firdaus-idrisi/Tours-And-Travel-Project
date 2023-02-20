@@ -461,13 +461,44 @@ h3 {
   background: #1e3c72;
     cursor: pointer;
 }
+.navbar-brand{
+  padding-left:40px;
+}
+.navbar-links{
+  padding:0px 20px;
+  color:black;
+  text-decoration:none;
+font-size:18px;
+}
+.navbar-links:hover{
+  color:orange;
+}
+.s1{
+  background-color:#CEEAFF;
+
+}
 </style>  
 </head>
   <body class="bg-light">
+   
     
-<nav class="navbar fixed-top bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Hotel App</a>
+<nav class="navbar fixed-top s1">
+  <div><a class="navbar-brand" href="/">Hotel App</a></div>
+  <div style="float:right;">
+    
+
+    {% comment %} <a class="navbar-links" href="/">Home</a> {% endcomment %}
+    <a class="navbar-links" href="register">Registration</a>
+    <a class="navbar-links" href="login">Login</a>
+    {% comment %} <a class="navbar-links" href="hotel">Hotel</a> {% endcomment %}
+    <a class="navbar-links" href="flight">Flight</a>
+    <a class="navbar-links" href="Contact">Contact</a>
+    
+
+    
+  
+      
+
     <div class="col-lg-6 text-right menu-1 collapse navbar-collapse justify-content-end" id="navbarNav">
     
       <ul class="navbar-nav">
