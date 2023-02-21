@@ -30,6 +30,7 @@ def register_request(request):
 		form = NewUserForm(request.POST)
 		if form.is_valid():
 			user = form.save()
+			print(user)
 			login(request, user)
 			messages.success(request, "Registration successful." )
 			return redirect("/login")

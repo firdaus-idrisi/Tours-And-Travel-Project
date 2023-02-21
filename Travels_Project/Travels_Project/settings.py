@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^7eq6x5d2@md%jv93wtuj$t0x%mb^@=-pg4^_kiq%sxejdnzq4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','192.0.0.108']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'Travels_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo_project_data',
+        'NAME': 'telesko',
         'USER':'root',
-        'PASSWORD':'Firdaus@123',
+        'PASSWORD':'',
         'HOST': 'localhost',
         'PORT':'3306',
         'OPTIONS':{
