@@ -380,12 +380,12 @@
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input gender" value="male">Male
+                                    <input type="radio" class="form-check-input gender" name="Gender" value="male">Male
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input gender" value="female">Female
+                                    <input type="radio" class="form-check-input gender" name="Gender" value="female">Female
                                 </label>
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                                 purchase_units: [
                                     {
                                         amount: {
-                                            value: "58.69"
+                                            value: dollar_fee
                                         }
                                     }
                                 ]
@@ -463,8 +463,14 @@
                                     ₹ <span>
                                         {% if flight2 %}
                                             {{flight1.first_fare | add:flight2.first_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.first_fare | add:flight2.first_fare}}';
+                                            </script>
                                         {% else %}
                                             {{flight1.first_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.first_fare}}';
+                                            </script>
                                         {% endif %}
                                         </span>
                                     <input type="hidden" id="basefare" value="{% if flight2 %}{{flight1.first_fare | add:flight2.first_fare}}{% else %}{{flight1.first_fare}}{% endif %}">
@@ -472,8 +478,14 @@
                                     ₹ <span>
                                         {% if flight2 %}
                                             {{flight1.business_fare | add:flight2.business_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.business_fare | add:flight2.business_fare}}';
+                                            </script>
                                         {% else %}
                                             {{flight1.business_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.business_fare}}';
+                                            </script>
                                         {% endif %}
                                         </span>
                                     <input type="hidden" id="basefare" value="{% if flight2 %}{{flight1.business_fare | add:flight2.business_fare}}{% else %}{{flight1.business_fare}}{% endif %}">
@@ -481,12 +493,22 @@
                                     ₹ <span>
                                         {% if flight2 %}
                                             {{flight1.economy_fare | add:flight2.economy_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.economy_fare | add:flight2.economy_fare}}';
+                                            </script>
                                         {% else %}
                                             {{flight1.economy_fare}}
+                                            <script>
+                                                let ffee = '{{flight1.economy_fare}}';
+                                            </script>
                                         {% endif %}
+                                        
                                     </span>
                                     <input type="hidden" id="basefare" value="{% if flight2 %}{{flight1.economy_fare | add:flight2.economy_fare}}{% else %}{{flight1.economy_fare}}{% endif %}">
                                 {% endif %}
+                                <script>
+                                    let dollar_fee = (ffee/82.76).toFixed(2);
+                                </script>
                             </div>
                         </div>
                         <div class="row surcharges">
@@ -526,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="coupon-code">
+                    {% comment %} <div class="coupon-code">
                         <h5>Have a coupon code?</h5>
                         <hr>
                         <div class="row base-fare">
@@ -539,7 +561,7 @@
                                 </center>
                             </div>
                         </div>
-                    </div>
+                    </div> {% endcomment %}
                 </div>
                 <div class="col media-payment-btn">
                     {% comment %} <div>
