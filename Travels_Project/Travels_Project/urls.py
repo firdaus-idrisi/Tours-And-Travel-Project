@@ -21,17 +21,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('',include('User_details.urls')),
-    # path('',include('hotels.urls')),
-    # path('',include('hotel.urls')),
-    # path('',include('home.urls')),
     path('',include('hotels.urls')),
-<<<<<<< HEAD
-    
-=======
     path('',include('flight.urls')),
     path('',include('home.urls')),
 
->>>>>>> 97fe9acaeb73d6bc3380bd1d9480cd80e9c6d08a
     path('admin/', admin.site.urls),
     
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
