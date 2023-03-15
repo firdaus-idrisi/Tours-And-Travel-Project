@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(192, 230, 226);
+  }
+
+.btn-margin{
+    margin: 15px;
+
+}
+
+label{
+    margin: 10px;
+}
+
+input{
+   
+    width: 300px;
+    border-radius: 10px;
+}
+
+.br{
+    background-color: rgb(225, 240, 234);
+    margin-top: 30px;
+    padding: 10px 20px;
+    padding-left: 30px;
+    border: 2px solid orangered;
+    border-radius: 25px;
+}
+
+
+
+p{
+    text-align: center;
+}

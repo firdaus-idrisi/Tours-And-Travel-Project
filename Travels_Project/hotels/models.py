@@ -1,69 +1,69 @@
 from django.db import models
-from django.conf import settings
+from django.contrib.auth.models import AbstractUser
+import random
 
-# Create your models here.
-class Hotels_data(models.Model):
-    City=models.CharField(max_length=150,blank=True)
-    # Hotel_Name = models.CharField(max_length=150,blank=True)
-    # Check_In=models.one(blank=True)
-    Check_In=models.DateField(blank=True)
-    Check_Out=models.DateField(blank=True)
-    Rooms=models.IntegerField(blank=True)
-    Adult=models.IntegerField(blank=True)
-    Children=models.IntegerField(blank=True)   
+def random_price():
+    return random.randint(800,2000)
 
-class Room(models.Model):
-    ROOM_CATEGORIES = (
-        ('YAC', 'AC'),
-        ('NAC', 'NON-AC'),
-        ('DEL', 'DELUXE'),
-        ('KIN', 'KING'),
-        ('QUE', 'QUEEN'),
-    )
-    number = models.IntegerField()
-    category = models.CharField(max_length=3, choices=ROOM_CATEGORIES)
-    beds = models.IntegerField()
-    capacity = models.IntegerField()
+class User(AbstractUser):
+    id = models.BigAutoField(primary_key=True)
+    phone = models.IntegerField(default=None, blank=True, null=True)
+    avatar = models.CharField(default=None ,max_length=64, blank=True, null=True)
+    pass
+
+
+class Hotel(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    city = models.CharField(default=None, max_length=64)
+    name = models.CharField(default=None, max_length=64)
+
+    address = models.CharField(default=None, max_length=64)
+
+    overview = models.CharField(default=None, max_length=64)
+    # highlight = models.CharField(default=None, max_length=64)
+    #  room_types = models.CharField(default=None, max_length=64)
+    rating = models.CharField(default=None, max_length=64)
+
+    price = models.FloatField(default=random_price)
+    imgurls = models.CharField(default=None, max_length=64)
 
     def __str__(self):
-        return f'{self.number}. {self.category} with {self.beds} beds for {self.capacity} people'
-    
+        return f"{self.city}"
 
 class Booking(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL,
-                             on_delete=models.CASCADE)
-    room = models.ForeignKey(Room, on_delete=models.CASCADE)
-    check_in = models.DateTimeField()
-    check_out = models.DateTimeField()
-
-    def __str__(self):
-        return f'{self.user} has booked {self.room} from {self.check_in} to {self.check_out}'
-
-class hotel_list(models.Model):
-    City=models.CharField(max_length=150,blank=True)
-    Hotel_Name=models.CharField(max_length=100)
-    # Check_In=models.DateField(blank=True)
-    # Check_Out=models.DateField(blank=True)
-    Room=models.IntegerField(default=None)
-    Adult=models.IntegerField(blank=True)
-    Children=models.IntegerField(blank=True)  
-    Hotel_Image=models.ImageField(upload_to="media", height_field=None, width_field=None, max_length=None,default='0.jpeg')
+    id = models.BigAutoField(primary_key=True)
+    hotel = models.ForeignKey(Hotel, related_name="booking", on_delete=models.CASCADE)
+    tracking_id = models.CharField(default='000', max_length=64)
     
-    def __str__(self):
-        return self.City
+    first_name = models.CharField(default=None, max_length=64)
+    last_name = models.CharField(default=None, max_length=64)
+    email = models.CharField(default=None, max_length=64)
+    phone = models.CharField(default=None, max_length=64)
 
-class Booking_details(models.Model):
-    Hotel_Image=models.ImageField(upload_to="media", height_field=None, width_field=None, max_length=None,default='0.jpeg')
-    Hotel_Name=models.ManyToManyField(hotel_list)
-    Hotel_Price=models.IntegerField()
-    Hotel_Rating=models.IntegerField()
+    room = models.IntegerField(default=1)
+    adult = models.IntegerField(default=1)
+    child = models.IntegerField(default=0)
 
-class all_hotels_list(models.Model):
-    
-    City=models.CharField(max_length=150,blank=True)
-    hotel_name=models.CharField(max_length=150)
-    hotel_price=models.IntegerField()
-    hotel_img=models.ImageField(upload_to="media", height_field=None, width_field=None, max_length=None,default='0.jpeg')
-    hotel_rating=models.IntegerField()
+    checkin_date = models.CharField(default=None , max_length=64)
+    checkout_date = models.CharField(default=None, max_length=64)
+    booking_date = models.DateTimeField(auto_now_add=True)
+    price = models.CharField(max_length=64, default=None, null=False)
+
+    user = models.ForeignKey(User, related_name="booking", on_delete=models.SET_NULL, default=None, null=True, blank=True)
+
     def __str__(self):
-        return self.City
+        return self.tracking_id
+
+class Transaction(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    made_by = models.ForeignKey(User, related_name='transactions',
+                                on_delete=models.CASCADE)
+    made_on = models.DateTimeField(auto_now_add=True)
+    amount = models.IntegerField()
+    order_id = models.CharField(unique=True, max_length=100, null=True, blank=True)
+    checksum = models.CharField(max_length=100, null=True, blank=True)
+
+    def save(self, *args, **kwargs):
+        if self.order_id is None and self.made_on and self.id:
+            self.order_id = self.made_on.strftime('PAY2ME%Y%m%dODR') + str(self.id)
+        return super().save(*args, **kwargs)

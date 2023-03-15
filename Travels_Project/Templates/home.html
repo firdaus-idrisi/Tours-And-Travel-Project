@@ -1,21 +1,49 @@
 {% extends "base.html" %}
-
 {%  block start %}
 
 <!-- jumbotron and nav -->
-<section class="colorful jumbotron mb-0" role="banner"></section>
+<section class="colorful jumbotron mb-0" role="banner">
+    <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
+        <div class="navbar-brand">
+            <a href="index.html">Hotel Spoof
+                <em>.</em>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+    </nav>
 
-<section class="search-container mb-5 pb-5 " style="padding-top:50px;" >
+    <div class="container hotels-container">
+
+        <div class="row mt-2 justify-content-between">
+            <div class="col-md-8 text-white align-self-center mb-2 p-4">
+                <h1>HOTEL Place</h1>
+                <span class=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum debitis perspiciatis sed iusto
+                    eveniet neque natus quidem velit optio cumque saepe repudiandae vero, sit hic adipisci laudantium libero blanditiis
+                    animi.
+                </span>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+<section class="search-container mb-5 pb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
                 <div class="row my-3">
-                    
+                
                 </div>
                 <div class="row mt-2 justify-content-between">
                     <div class="filter-card">
                         <h5>Filter</h5>
                         <form action="#">
+                            {% csrf_token %}
+                                
                             <div class="row form-group">
                                 <div class="col-md-12">
                                     <label for="mintopay">Check in</label>
@@ -41,44 +69,30 @@
 
                 </div>
             </div>
-
-
-
             <div class="col-lg-9  px-4 mb-5">
                 <form>
                 <div class="row mt-3">
                     <div class="col-md-4">
                     <div class="form-inline">
-                        <div class="form-inline">
-                            <label class="" for="exampleFormControlSelect1">City</label>
-                            <input name="City" class="form-control" value="{{City}}" placeholder="City"> 
-                        </div>
-                        {% comment %} <label class="" for="exampleFormControlSelect1">City</label>
-                        <input name="City" class="form-control" value="{{City}}" placeholder="City">  {% endcomment %}
-
-                        
+                        <label class="" for="exampleFormControlSelect1">City</label>
+                        <input name="City" class="form-control" value="{{City}}" placeholder="Search"> 
                     </div>
-                    </div>
-                    
+                </div>
 
+                
+                
                     <div class="col-md-4">
                         <div class="form-inline">
-                            <label class="" for="exampleFormControlSelect1">Room</label>
-                            <input name="search" class="form-control" value="{{Room}}" placeholder="Room"> 
+                            <label class="" for="exampleFormControlSelect1">Childern</label>
+                            <input name="City" class="form-control" value="{{Childern}}" placeholder="Search"> 
                         </div>
-                    </div> 
 
-                    <div class="col-md-4">
-                        <div class="form-inline">
-                            <label class="" for="exampleFormControlSelect1">Child</label>
-                            <input name="search" class="form-control" value="{{Child}}" placeholder="Child"> 
-                        </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="form-inline">
                             <label class="" for="exampleFormControlSelect1">Adult</label>
-                            <input name="search" class="form-control" value="{{Adult}}" placeholder="Adult"> 
+                            <input name="room" class="form-control" value="{{Adult}}" placeholder="Search"> 
                         </div>
                     </div>
 
@@ -86,7 +100,7 @@
                     <div class="col-md-4">
                         <div class="form-inline">
                            <label class="" for="exampleFormControlSelect1">Amenities</label>
-                            <select name="amenities" class="form-control" multiple>
+                            <select name="amenities" class="form-control" >
                             <option value="">Choose</option>
                             {% for amenities_obj in amenities_objs %}
                             <option {% if amenities_obj.amenity_name in amenities  %} selected {%endif%}value="{{amenities_obj.amenity_name}}">{{amenities_obj.amenity_name}}</option>
@@ -95,18 +109,34 @@
                         </div>
 
                     </div>
+
+                    
                     <div class="col-md-4">
-                     
-                            <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
+                        <div class="form-inline">
+                           <label class="" for="exampleFormControlSelect1">Room Category</label>
+                            <select name="rooms" class="form-control" >
+                            <option value="">Choose</option>
+                            {% for room_obj in room_objs %}
+                            <option {% if room__obj.category in room  %} selected {%endif%}value="{{room__obj.category}}">{{room_obj.category}}</option>
+                            {% comment %} <option {% if room__obj.number in room  %} selected {%endif%}value="{{room__obj.number}}">{{room_obj.number}}</option> {% endcomment %}
+                                {% endfor %}
+                        </select>
                         </div>
+
+                    </div>
+
+                   
+                    
+                    
+                   
+                    <div class="col-md-4">
+                            <button style="margin-top: 30px;" type="submit" class="btn btn-success">Find</button>
+                    </div>
                 </div>
                 </form>
                 
                 {% for hotels_obj in hotels_objs %}
-
-                
                 <div class="row search-card-result">
-                    
                     <div class="col-md-3">
                        
                     <a href="/hotel-detail/{{hotels_obj.uid}}">
@@ -117,6 +147,9 @@
                     <div class="col-md-5">
                         <h5>{{hotels_obj.hotel_name}}</h5>
                         <h5>{{hotels_obj.City}}</h5>
+                        <h5>{{hotels_obj.room}}</h5>
+                        <h5>{{hotels_obj.Childern}}</h5>
+                        
                         
                         <p>
                             {{hotels_obj.description|truncatechars:150}}
@@ -126,14 +159,21 @@
                             <b>{{amenitie.amenity_name}}</b>,
                             {% endfor %}
                         </p>
+                        <p>
+                            {% for rooms in hotels_obj.room.all %}
+                            <b> {{rooms.number}} </b>,
+                            {% endfor %}
+                        </p>
                         
                     </div>
                     <div class="col-md-2 border-left text-center more-offers">
                         
                         <p>Place.com</p>
+                        
                         <p>${{hotels_obj.hotel_price}}</p>
-                        <p>Room count</p>
-                        <p>{{hotels_obj.room_count}}</p>
+                        
+                        {% comment %} <p>Room count</p>
+                        <p>{{hotels_obj.room}}</p> {% endcomment %}
                     </div>
                     <div class="col-md-2 border-left text-center more-offers">
                        

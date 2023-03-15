@@ -402,7 +402,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #F78536 !important;
+  color: white !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -423,7 +423,7 @@ figure {
   font-size: 12px;
   margin-top: -7px;
   content: "\e922";
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 #fh5co-primary-menu > li > ul li {
   position: relative;
@@ -435,7 +435,7 @@ figure {
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  text-transform: none;
+  text-transform: #ceeaff5c;
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;

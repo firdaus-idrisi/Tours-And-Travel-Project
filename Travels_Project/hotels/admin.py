@@ -1,15 +1,10 @@
 from django.contrib import admin
 
-
-from django.contrib import admin
-from .models import Hotels_data,Room,Booking,hotel_list,Booking_details,all_hotels_list
-
 # Register your models here.
+from .models import User,Hotel,Booking,Transaction
 
-admin.site.register(Booking_details)
-admin.site.register(Hotels_data)
-admin.site.register(Room)
+admin.site.register(User)
+admin.site.register(Hotel)
 admin.site.register(Booking)
-admin.site.register(all_hotels_list)
+admin.site.register(Transaction)
 
-# admin.site.register(hotel_list)

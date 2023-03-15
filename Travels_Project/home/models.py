@@ -13,13 +13,11 @@ class BaseModel(models.Model):
     class Meta:
         abstract = True
 
-
 class Amenities(BaseModel):
     amenity_name = models.CharField(max_length=100)
 
     def __str__(self) -> str:
         return self.amenity_name
-
 
 class Room(BaseModel):
     
@@ -30,7 +28,7 @@ class Room(BaseModel):
         ('KIN', 'KING'),
         ('QUE', 'QUEEN'),
     )
-    
+    number = models.IntegerField()
     category = models.CharField(max_length=3, choices=ROOM_CATEGORIES)
 
     # def __str__(self) -> str:
@@ -42,9 +40,7 @@ class Hotel(BaseModel):
     hotel_price = models.IntegerField()
     description = models.TextField()
     amenities = models.ManyToManyField(Amenities)
-    room_count = models.IntegerField(default=10)
-
-    room_category = models.ManyToManyField(Room)
+    room = models.ManyToManyField(Room)
     Adult = models.IntegerField(default=None)
     Childern = models.IntegerField(default=None)
 
@@ -64,6 +60,5 @@ class HotelBooking(BaseModel):
     start_date = models.DateField()
     end_date = models.DateField()
     booking_type= models.CharField(max_length=100,choices=(('Pre Paid' , 'Pre Paid') , ('Post Paid' , 'Post Paid')))
-    
     def __str__(self) -> str:
         return self.user

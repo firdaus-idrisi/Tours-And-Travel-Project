@@ -67,9 +67,60 @@ def logout_request(request):
 
 def Contact(request):
 	return render(request,"Contact.html")
-	 
 
 def password_reset_request(request):
+	if request.method == "POST":
+		password_reset_form = PasswordResetForm(request.POST)
+		if password_reset_form.is_valid():
+			data = password_reset_form.cleaned_data['email']
+			associated_users = User.objects.filter(Q(email=data))
+			if associated_users.exists():
+				for user in associated_users:
+					print(user, '\n', user.email)
+					print("****************************")
+					subject = "Password Reset Requested"
+					email_template_name = "password_reset_email.txt"
+					c = {
+						"email":user.email,
+						'domain':'192.0.0.108:8000',
+						'site_name': 'Tours and Travels',
+						"uid": urlsafe_base64_encode(force_bytes(user.pk)),
+						"user": user,
+						'token': default_token_generator.make_token(user),
+						'protocol': 'http',
+					}
+					email = render_to_string(email_template_name, c)
+					sender_email = 'piyush.s@srmtechsol.com'
+					sender_password = 'Welcome@123##'
+					try:
+						s = smtplib.SMTP(host='smtp.office365.com', port=587)
+						s.starttls()
+						s.login(sender_email, sender_password)
+						sleep(2)
+						print("Login Done")
+						# send_mail(subject, email, 'admin@example.com' , [user.email], fail_silently=False)
+					except BadHeaderError:
+						return HttpResponse('Invalid header found.')
+
+					msg = MIMEMultipart()
+					message = email
+					msg['From']=sender_email
+					msg['To']= user.email
+					msg['Subject']= subject
+					msg.attach(MIMEText(message, 'plain'))
+					s.send_message(msg)
+					print("Mail Sent")
+					messages.success(request, 'Email for Reset Password has been sent.')
+			else:
+				                # print("entered in else case")
+				messages.error(request, 'An invalid email has been entered.')
+				
+
+			return redirect ("/password_reset/done/")
+	password_reset_form = PasswordResetForm()
+	return render(request=request, template_name="password_reset.html", context={"password_reset_form":password_reset_form}) 
+
+# def password_reset_request(request):
 	if request.method == "POST":
 		password_reset_form = PasswordResetForm(request.POST)
 		if password_reset_form.is_valid():

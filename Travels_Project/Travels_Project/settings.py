@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^7eq6x5d2@md%jv93wtuj$t0x%mb^@=-pg4^_kiq%sxejdnzq4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.0.0.108']
-
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -41,8 +41,9 @@ INSTALLED_APPS = [
     'User_details',
     'crispy_forms',
     'hotels',
-    'flight', 
-    'home',
+    # 'authtools',
+
+    
 ]
 
 MIDDLEWARE = [
@@ -79,12 +80,30 @@ WSGI_APPLICATION = 'Travels_Project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'demo_project_data',
+#         'USER':'root',
+#         'PASSWORD':'Firdaus@123',
+#         'HOST': 'localhost',
+#         'PORT':'3306',
+#         'OPTIONS':{
+#             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'",
+#         } 
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo_project_data',
+<<<<<<< HEAD
+        'NAME': 'hotel_demo_data',
+=======
+        'NAME': 'telesko',
+>>>>>>> 97fe9acaeb73d6bc3380bd1d9480cd80e9c6d08a
         'USER':'root',
-        'PASSWORD':'Firdaus@123',
+        'PASSWORD':'',
         'HOST': 'localhost',
         'PORT':'3306',
         'OPTIONS':{
@@ -93,6 +112,7 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'hotels.User'
 
 
 # Password validation
